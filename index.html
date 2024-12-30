@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>В'язання</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+<body>
+<header>
+    <h1>В'язання: Гачком і Спицями</h1>
+</header>
+
+<main>
+    <!-- Accordion -->
+    <section id="accordion-section">
+        <h2>Теми</h2>
+        <div id="accordion">
+            <h3>Гачком</h3>
+            <div>
+                <p>Гачком можна створювати різноманітні вироби: серветки, пледи, шапки тощо.</p>
+            </div>
+            <h3>Спицями</h3>
+            <div>
+                <p>В'язання спицями ідеально підходить для створення одягу: светрів, шарфів, рукавичок.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Datepicker -->
+    <section id="datepicker-section">
+        <h2>Вибір дати</h2>
+        <p>Оберіть дату для вашого в'язального проекту:</p>
+        <input type="text" id="datepicker">
+    </section>
+
+    <!-- Tabs -->
+    <section id="tabs-section">
+        <h2>Матеріали</h2>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tab-1">Пряжа</a></li>
+                <li><a href="#tab-2">Інструменти</a></li>
+                <li><a href="#tab-3">Ідеї</a></li>
+            </ul>
+            <div id="tab-1">
+                <p>Вибирайте якісну пряжу для вашого проекту.</p>
+            </div>
+            <div id="tab-2">
+                <p>Спиці, гачки та інші інструменти для в'язання.</p>
+            </div>
+            <div id="tab-3">
+                <p>Надихайтесь нашими ідеями для створення неймовірних виробів!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flexbox Gallery -->
+    <section id="video-gallery">
+        <h2>Відео про в'язання</h2>
+        <div class="video-container">
+            <a href="https://www.youtube.com/watch?v=FtUP8VHeir8" data-fancybox="videos" class="video-link">
+                <img src="images/scarf.jpg" alt="Відео про в'язання гачком">
+                <p>В'язання гачком</p>
+            </a>
+            <a href="https://www.youtube.com/watch?v=a26JpKRxmvE&t=887s" data-fancybox="videos" class="video-link">
+                <img src="images/zayki.jpg" alt="Відео про в'язання спицями">
+                <p>В'язання спицями</p>
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 В'язання для всіх. Усі права захищені.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
